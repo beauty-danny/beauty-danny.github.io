@@ -1,0 +1,50 @@
+.resume{
+	width: 100%;
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: #002839;
+	text-align: center;
+}
+.resume h1{
+	color:#49C9DE;
+	margin-bottom: 15px;
+}
+.list_group{
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.list_group_item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+    margin-bottom: -1px;
+    background-color: rgba(5,51,85,0.5);
+    border: 1px solid #6B6B6B;
+}
+.list_group_item{
+	position: relative;
+    display: block;
+    padding: 15px 15px;
+    margin-bottom: -1px;
+    background-color: rgba(5,51,85,0.5);
+    border: 1px solid #6B6B6B;
+}
+.list_group_item:hover{
+	background: #07181C;
+}
+.list_group_item h4{
+	font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.list_group_item span{
+	float: right;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 30px;
+}
