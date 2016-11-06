@@ -16,40 +16,28 @@ body{
     line-height: 1.428571429;
     color: #fff;
 }
-@font-face {
-  font-family: 'iconfont';  /* project id："160251" */
-  src: url('http://at.alicdn.com/t/font_08uvjdf08f9wwmi.eot');
-  src: url('http://at.alicdn.com/t/font_08uvjdf08f9wwmi.eot') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_08uvjdf08f9wwmi.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_08uvjdf08f9wwmi.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_08uvjdf08f9wwmi.svg#iconfont') format('svg');
-}
-.icons{
-    font-family: 'iconfont';
-    color: #000;
-}
 @media screen and (min-width: 1200px) {
-			.container{
-				width:1200px;
-				}
-		}
-		@media screen and (min-width:960px) and (max-width:1200px){
-       		.container{
-       			width:992px;
-       			}
-    	}
-    	@media screen and (min-width:768px) and (max-width:992px){
-    		.container{
-    			width: 768px;
-    			}
-    	}
-    	@media screen and (max-width:768px){
-    		.container{
-    			width: 400px;
-    		}
-    		
-    	}
+	.container{
 
+		width:1200px;
+		}
+}
+@media screen and (min-width:960px) and (max-width:1200px){
+		.container{
+			width:992px;
+			}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	.container{
+		width: 768px;
+		}
+}
+@media screen and (max-width:768px){
+	.container{
+		width: 400px;
+	}
+	
+}
 /*固定导行*/
 #nav{
 	height:50px;
@@ -391,14 +379,14 @@ body{
     margin-bottom: 20px;
     transition: all 0.5s ease;
 }
-.icon .service_icon .icons{
+/*.icon .service_icon span{
     display:block;
     font-size: 60px;
     color: #fff;
-    /*font: normal normal normal 14px/1 FontAwesome;*/
+    font: normal normal normal 14px/1 FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-}
+}*/
 .icon h3{
     margin-top:40px;
     margin-bottom: 10px;
@@ -420,7 +408,7 @@ body{
    background: rgba(0,0,0,0.5);
    color:  #49C9DE;
 }
-.icon:hover .icons{
+.icon:hover .sp{
     color: #49C9DE;
 }
 /*工程*/
@@ -472,13 +460,13 @@ body{
     left: 0;
     top: 0;
     z-index: 10;
+    text-align: center;
     background:rgba(0,0,0,0.5); 
     opacity: 0;
 }
-.a_top .zhao .icons{
+.a_top .zhao span{
     display: block;
     margin-top: 40%;
-    text-align: center;
     font-size: 50px;
     color: #fff;
 }

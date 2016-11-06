@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1477641483078'); /* IE9*/
-  src: url('iconfont.eot?t=1477641483078#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1477641483078') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1477641483078') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1477641483078#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1478426428780'); /* IE9*/
+  src: url('iconfont.eot?t=1478426428780#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1478426428780') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1478426428780') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1478426428780#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -63,4 +63,6 @@
 .icon-piaowu:before { content: "\e60f"; }
 
 .icon-lookthrough:before { content: "\e602"; }
+
+.icon-guaduandianhua:before { content: "\e613"; }
 
