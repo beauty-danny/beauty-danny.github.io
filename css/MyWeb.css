@@ -258,7 +258,8 @@ body{
 	margin:0 auto;
 	height: 121px;
 	width: 121px;
-	background: orange;
+	background:url(../images/me.jpg);
+    background-size: 110%;
 	border-radius: 50%;
 }
 .introduce h4{

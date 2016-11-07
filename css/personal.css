@@ -48,3 +48,47 @@
 	font-size: 30px;
 	line-height: 30px;
 }
+.list_group_item span:first-child{
+	display: block;
+}
+.list_group_item span:last-child{
+	display: none;
+}
+/*个人资料*/
+.self_introduce{
+	width: 100%;
+	height:auto; 
+	display: none;
+}
+.self_introduce table{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+.self_introduce table tr{
+	height: 50px;
+	width: 50%;
+	padding-left: 20px;
+	border-bottom:1px solid grey;
+}
+.self_introduce table tr:last-child{
+	border: 0;
+}
+.self_introduce table:hover{
+	color: #fff;
+}
+
+/*工作经历*/
+
+
+
+
+/*职业技能*/
+
+
+
+
+/*教育背景*/
